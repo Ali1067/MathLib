@@ -11,6 +11,11 @@
 		04BBEB642A5BFF3200093B76 /* MathLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BBEB592A5BFF3200093B76 /* MathLib.framework */; };
 		04BBEB692A5BFF3200093B76 /* MathLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBEB682A5BFF3200093B76 /* MathLibTests.swift */; };
 		04BBEB6A2A5BFF3200093B76 /* MathLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BBEB5C2A5BFF3200093B76 /* MathLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04BBEB7A2A5BFFE000093B76 /* MathLibExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBEB792A5BFFE000093B76 /* MathLibExampleApp.swift */; };
+		04BBEB7C2A5BFFE000093B76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBEB7B2A5BFFE000093B76 /* ContentView.swift */; };
+		04BBEB7E2A5BFFE200093B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BBEB7D2A5BFFE200093B76 /* Assets.xcassets */; };
+		04BBEB822A5BFFE200093B76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BBEB812A5BFFE200093B76 /* Preview Assets.xcassets */; };
+		04BBEB872A5C025600093B76 /* MathLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBEB862A5C025600093B76 /* MathLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,13 @@
 		04BBEB5D2A5BFF3200093B76 /* MathLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MathLib.docc; sourceTree = "<group>"; };
 		04BBEB632A5BFF3200093B76 /* MathLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BBEB682A5BFF3200093B76 /* MathLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLibTests.swift; sourceTree = "<group>"; };
+		04BBEB772A5BFFE000093B76 /* MathLibExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathLibExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BBEB792A5BFFE000093B76 /* MathLibExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLibExampleApp.swift; sourceTree = "<group>"; };
+		04BBEB7B2A5BFFE000093B76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04BBEB7D2A5BFFE200093B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BBEB7F2A5BFFE200093B76 /* MathLibExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MathLibExample.entitlements; sourceTree = "<group>"; };
+		04BBEB812A5BFFE200093B76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04BBEB862A5C025600093B76 /* MathLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04BBEB742A5BFFE000093B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +74,7 @@
 			children = (
 				04BBEB5B2A5BFF3200093B76 /* MathLib */,
 				04BBEB672A5BFF3200093B76 /* MathLibTests */,
+				04BBEB782A5BFFE000093B76 /* MathLibExample */,
 				04BBEB5A2A5BFF3200093B76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +84,7 @@
 			children = (
 				04BBEB592A5BFF3200093B76 /* MathLib.framework */,
 				04BBEB632A5BFF3200093B76 /* MathLibTests.xctest */,
+				04BBEB772A5BFFE000093B76 /* MathLibExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +94,7 @@
 			children = (
 				04BBEB5C2A5BFF3200093B76 /* MathLib.h */,
 				04BBEB5D2A5BFF3200093B76 /* MathLib.docc */,
+				04BBEB862A5C025600093B76 /* MathLib.swift */,
 			);
 			path = MathLib;
 			sourceTree = "<group>";
@@ -83,6 +105,26 @@
 				04BBEB682A5BFF3200093B76 /* MathLibTests.swift */,
 			);
 			path = MathLibTests;
+			sourceTree = "<group>";
+		};
+		04BBEB782A5BFFE000093B76 /* MathLibExample */ = {
+			isa = PBXGroup;
+			children = (
+				04BBEB792A5BFFE000093B76 /* MathLibExampleApp.swift */,
+				04BBEB7B2A5BFFE000093B76 /* ContentView.swift */,
+				04BBEB7D2A5BFFE200093B76 /* Assets.xcassets */,
+				04BBEB7F2A5BFFE200093B76 /* MathLibExample.entitlements */,
+				04BBEB802A5BFFE200093B76 /* Preview Content */,
+			);
+			path = MathLibExample;
+			sourceTree = "<group>";
+		};
+		04BBEB802A5BFFE200093B76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04BBEB812A5BFFE200093B76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +177,23 @@
 			productReference = 04BBEB632A5BFF3200093B76 /* MathLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		04BBEB762A5BFFE000093B76 /* MathLibExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BBEB832A5BFFE200093B76 /* Build configuration list for PBXNativeTarget "MathLibExample" */;
+			buildPhases = (
+				04BBEB732A5BFFE000093B76 /* Sources */,
+				04BBEB742A5BFFE000093B76 /* Frameworks */,
+				04BBEB752A5BFFE000093B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathLibExample;
+			productName = MathLibExample;
+			productReference = 04BBEB772A5BFFE000093B76 /* MathLibExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +208,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					04BBEB622A5BFF3200093B76 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					04BBEB762A5BFFE000093B76 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -168,6 +230,7 @@
 			targets = (
 				04BBEB582A5BFF3200093B76 /* MathLib */,
 				04BBEB622A5BFF3200093B76 /* MathLibTests */,
+				04BBEB762A5BFFE000093B76 /* MathLibExample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +250,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04BBEB752A5BFFE000093B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBEB822A5BFFE200093B76 /* Preview Assets.xcassets in Resources */,
+				04BBEB7E2A5BFFE200093B76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BBEB5E2A5BFF3200093B76 /* MathLib.docc in Sources */,
+				04BBEB872A5C025600093B76 /* MathLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +276,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BBEB692A5BFF3200093B76 /* MathLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBEB732A5BFFE000093B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBEB7C2A5BFFE000093B76 /* ContentView.swift in Sources */,
+				04BBEB7A2A5BFFE000093B76 /* MathLibExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +443,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ali.MathLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,6 +476,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ali.MathLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,6 +488,7 @@
 		04BBEB712A5BFF3200093B76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -415,6 +504,7 @@
 		04BBEB722A5BFF3200093B76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -422,6 +512,78 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ali.MathLibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04BBEB842A5BFFE200093B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MathLibExample/MathLibExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MathLibExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.MathLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BBEB852A5BFFE200093B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MathLibExample/MathLibExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MathLibExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.MathLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,6 +615,15 @@
 			buildConfigurations = (
 				04BBEB712A5BFF3200093B76 /* Debug */,
 				04BBEB722A5BFF3200093B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BBEB832A5BFFE200093B76 /* Build configuration list for PBXNativeTarget "MathLibExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBEB842A5BFFE200093B76 /* Debug */,
+				04BBEB852A5BFFE200093B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
