@@ -16,6 +16,7 @@
 		04BBEB7E2A5BFFE200093B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BBEB7D2A5BFFE200093B76 /* Assets.xcassets */; };
 		04BBEB822A5BFFE200093B76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BBEB812A5BFFE200093B76 /* Preview Assets.xcassets */; };
 		04BBEB872A5C025600093B76 /* MathLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBEB862A5C025600093B76 /* MathLib.swift */; };
+		04CCBE022A5D59620067DF9A /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 04CCBE012A5D59620067DF9A /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		04BBEB7F2A5BFFE200093B76 /* MathLibExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MathLibExample.entitlements; sourceTree = "<group>"; };
 		04BBEB812A5BFFE200093B76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04BBEB862A5C025600093B76 /* MathLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLib.swift; sourceTree = "<group>"; };
+		04CCBE012A5D59620067DF9A /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				04BBEB5C2A5BFF3200093B76 /* MathLib.h */,
 				04BBEB5D2A5BFF3200093B76 /* MathLib.docc */,
 				04BBEB862A5C025600093B76 /* MathLib.swift */,
+				04CCBE012A5D59620067DF9A /* .travis.yml */,
 			);
 			path = MathLib;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CCBE022A5D59620067DF9A /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
